@@ -7,3 +7,24 @@
 img {
   width: 50%;
 }
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    body {
+        background:  #FF6347;
+        color: #FFF;
+    }
+    .intro {
+      color: black;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+
+/*Mobile screens (roughly 300 - 480 pixels wide)
+Medium and tablet screens (roughly 700 - 1000 pixels wide)*/
